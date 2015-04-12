@@ -202,6 +202,8 @@ type CheckTTL struct {
 	TTL     time.Duration
 	Logger  *log.Logger
 
+	Status string
+
 	timer *time.Timer
 
 	stop     bool
